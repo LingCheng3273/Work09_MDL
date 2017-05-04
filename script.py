@@ -101,7 +101,7 @@ def run(filename):
             draw_lines(tmp, screen, color)
 
         elif command[0] == "save":
-            save_extention(screen, command[1])
+            save_extension(screen, command[1])
 
         elif command[0] == "display":
             display(screen)
